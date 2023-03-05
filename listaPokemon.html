@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Pokémon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body class="img-full">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="build/img/poke_logo.png" alt="logo img">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Pokemon</span>
+                    <span class="profession">Competitivo</span>
+                </div>
+            </div>
+
+            <img src="build/img/flecha.png" class="toggle"></img>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <img class="icon" src="build/img/inicio.png" alt="logo inicio">
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="listaPokemon.html">
+                            <img class="icon" src="build/img/listaPokemon.png" alt="logo lista">
+                            <span class="text nav-text">Lista Pokemon</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="tierList.html">
+                            <img class="icon" src="build/img/tierList.png" alt="logo tier">
+                            <span class="text nav-text">Tier List</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="iocn-link">
+                            <a>
+                                <img class="icon" src="build/img/portipos.png" alt="logo Tipos">
+                                <span class="text nav-text">Por Tipos</span>
+                            </a>
+                                <img class="icon showOpen" src="build/img/flechaL.png" alt="icono imagen">
+                        </div>
+                        <ul class="sub-menu">
+                            <div class="sub-contenedor">
+                                <template id="menu-template">
+                                    <li>
+                                      <a >
+                                        <img >
+                                      </a>
+                                    </li>
+                                  </template>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="iocn-link">
+                            <a>
+                                <img class="icon" src="build/img/contacto.png" alt="logo contacto">
+                                <span class="text nav-text">Contacto</span>
+                            </a>
+                                <img class="icon showOpen" src="build/img/flechaMaster.png" alt="logo open">
+                        </div>
+                        <ul class="sub-menu">
+                            <div class="sub-contenedor">
+                                <li>
+                                    <a class="sub-contenedor-contacto">
+                                      <img src="build/img/discord.png" alt="icono contacto"></img>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="sub-contenedor-contacto">
+                                      <img src="build/img/whatsApp.png" alt="icono contacto"></img>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a class="sub-contenedor-contacto">
+                                      <img src="build/img/facebook.png" alt="icono contacto"></img>
+                                    </a>
+                                  </li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="mode">
+                    <div class="moon-sun">
+                            <img class="icon moon" src="build/img/logo_type_oscuridad.png" alt="img logo">
+                            <img class="icon sun" src="build/img/logo_type_fuego.png" alt="img logo">
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+            <header class="header">
+                <div class="header-inicio">
+                    <img class="header-ubicacion" src="build/img/ubicacion.png" alt="logo ubicacion">
+                    <span class="header-span">Lista Pokemon</span>
+                    <img class="header-img" src="build/img/listaPokemon.png" alt="logo lista">
+                </div>
+            </header>
+            <!-- Fuego -->
+            <section id="fuego" class=" contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box ">
+                    <div class="card-titulo">
+                        <h3>Fuego Primario</h3>  
+                    </div>
+                    <div>
+                        <a class="btnHover">
+                            <img class="open" data-target="pokemon-fuego" src="build/img/logo_type_fuego.png" alt="type Pokemon">
+                        </a>   
+                    </div>    
+                </div>
+    
+                <div class="type-fuego template-hidden"  id="pokemon-fuego"> 
+                    <template id="template-fuego" class=" card-Fuego templatePokemon contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Agua -->
+            <section id="agua" class="contenedor contenido-principal">
+    
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Agua Primario</h3>  
+                    </div>
+                    <div>
+                       <a >
+                            <img class="open" data-target="pokemon-agua" src="build/img/logo_type_agua.png" alt="type Pokemon">   
+                       </a> 
+                    </div>    
+                </div>
+    
+                <div class="type-agua template-hidden" id="pokemon-agua"> 
+                    <template id="template-agua" class=" card-Agua contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Planta -->
+            <section id="planta" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Planta Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-planta" src="build/img/logo_type_planta.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-planta template-hidden" id="pokemon-planta"> 
+                    <template id="template-planta" class=" card-planta contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Tierra -->
+            <section id="tierra" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Tierra Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-tierra" src="build/img/logo_type_tierra.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-tierra template-hidden" id="pokemon-tierra"> 
+                    <template id="template-tierra" class="card-tierra contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Roca -->
+            <section id="roca" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Roca Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-roca" src="build/img/logo_type_roca.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-roca template-hidden" id="pokemon-roca"> 
+                    <template id="template-roca" class=" card-roca contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Volador -->
+            <section id="volador" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Volador Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-volador" src="build/img/logo_type_volador.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-volador template-hidden" id="pokemon-volador"> 
+                    <template id="template-volador" class=" card-volador contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Eléctrico -->
+            <section id="trueno" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Eléctrico Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-electrico" src="build/img/logo_type_trueno.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-electrico template-hidden" id="pokemon-electrico"> 
+                    <template id="template-electrico" class=" card-electrico contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Dragón -->
+            <section id="dragon" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Dragón Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-dragon" src="build/img/logo_type_dragon.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-dragon template-hidden" id="pokemon-dragon"> 
+                    <template id="template-dragon" class=" card-dragon contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Bicho -->
+            <section id="bicho" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Bicho Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-bicho" src="build/img/logo_type_bicho.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-bicho template-hidden" id="pokemon-bicho"> 
+                    <template id="template-bicho" class=" card-bicho contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Veneno -->
+            <section id="veneno" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Veneno Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-veneno" src="build/img/logo_type_veneno.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-veneno template-hidden" id="pokemon-veneno"> 
+                    <template id="template-veneno" class=" card-veneno contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Hielo -->
+            <section id="hielo" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Hielo Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-hielo" src="build/img/logo_type_hielo.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-hielo template-hidden" id="pokemon-hielo"> 
+                    <template id="template-hielo" class=" card-hielo contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Hada -->
+            <section id="hada" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Hada Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-hada" src="build/img/logo_type_hada.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-hada template-hidden" id="pokemon-hada"> 
+                    <template id="template-hada" class="card-hada contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Lucha -->
+            <section id="lucha" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Lucha Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-lucha" src="build/img/logo_type_lucha.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-lucha template-hidden" id="pokemon-lucha"> 
+                    <template id="template-lucha" class=" card-lucha contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Fantasma -->
+            <section id="fantasma" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Fantasma Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-fantasma" src="build/img/logo_type_fantasma.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-fantasma template-hidden" id="pokemon-fantasma"> 
+                    <template id="template-fantasma" class=" card-fantasma contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Normal -->
+            <section id="normal" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Normal Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-normal" src="build/img/logo_type_normal.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-normal template-hidden" id="pokemon-normal"> 
+                    <template id="template-normal" class=" card-normal contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Psíquico -->
+            <section id="psiquico" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Psíquico Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-psiquico" src="build/img/logo_type_psiquico.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-psiquico template-hidden" id="pokemon-psiquico"> 
+                    <template id="template-psiquico" class=" card-psiquico contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Acero -->
+            <section id="acero" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Acero Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-acero" src="build/img/logo_type_acero.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-acero template-hidden" id="pokemon-acero"> 
+                    <template id="template-acero" class=" card-acero contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+            <!-- Siniestro -->
+            <section id="siniestro" class="contenedor contenido-principal">
+                <div class="borde"></div>
+                <div class=" logo-type-normal borde-box">
+                    <div class="card-titulo">
+                        <h3>Siniestro Primario</h3>  
+                    </div>
+                    <a>
+                        <img class="open" data-target="pokemon-siniestro" src="build/img/logo_type_oscuridad.png" alt="type Pokemon">   
+                </a>    
+                </div>
+                <div class="type-siniestro template-hidden" id="pokemon-siniestro"> 
+                    <template id="template-siniestro" class=" card-siniestro contenido-card card borde-box">
+                        <figure>
+                            <a><img></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </template>
+                </div>
+            </section>
+
+            <!-- footer  -->
+            <footer class="footer">
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                    <div class="wave" id="wave2"></div>
+                    <div class="wave" id="wave3"></div>
+                    <div class="wave" id="wave4"></div>
+                </div>
+                <div class="footer-content">
+                    <ul class="footer-menu">
+                        <li class="footer-menu-link">
+                            <a href="index.html"><img src="build/img/inicio.png" alt="logo inicio"></a>
+                            <a href="listaPokemon.html"><img src="build/img/listaPokemon.png" alt="logo lista pokemon"></a>
+                            <a href="tierList.html"><img src="build/img/tierList.png" alt="logo tier list"></a>
+                        </li>
+                        <div class="footer-menu-info">
+                            <li>
+                                <h3>About</h3>
+                                <p>
+                                    Solo enlista un número de Pokémon que se suelen usar en nivel competitivo, no se busca formar una Wikipedia.
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <h3>Referencias</h3>
+                                    <p>
+                                        Páginas que mantienen una guía nivel competitivo:<br>
+                                        <a href="https://www.smogon.com/"> - Smogon</a> <br>
+                                        <a href="https://pokemonshowdown.com/"> - pokemonshowdown</a>
+                                    </p>
+                            </li>
+                        </div>
+                        
+                        <ul class="footer-social">
+                            <li><a href="#"><img src="build/img/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="build/img/discord.png" alt=""></a></li>
+                            <li><a href="#"><img src="build/img/whatsApp.png" alt=""></a></li>
+                        </ul>
+                    </ul>
+                    <div class="footer-border"></div>
+                    <p class="footer-copy">&copy;2023 WSD-ADN | All Rights Reserved </p>
+                </div>
+            <script src="/src/js/pokemons.js"></script> 
+            <script src="src/js/btnHidden.js"></script>
+            <script src="src/js/search.js"></script> 
+</body>
+</html>
