@@ -4,4 +4,4 @@ node_modules/
 package.json
 package-lock.json
 gulpfile.js
-app.min.css
+build/css/app.min.css
