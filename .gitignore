@@ -1,4 +1,5 @@
-src/
+src/img
+src/scss
 node_modules/
 package.json
 package-lock.json

@@ -1,0 +1,377 @@
+
+{
+    "RangoS": [
+        {
+            "title": "Arcanine",
+            "img": ["build/img/arcanine_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Talonflame",
+            "img": ["build/img/talonflame_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Torkoal",
+            "img": ["build/img/torkoal_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Seviper",
+            "img": ["build/img/seviper_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Armarouge",
+            "img": ["build/img/armarouge_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Gengar",
+            "img": "build/img/gengar_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Mimikyu",
+            "img": "build/img/mimikyu_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Polteageist",
+            "img": "build/img/polteageist_cuadro.jpg",
+            "a": "#"
+            },
+        {
+            "title": "Spiritomb",
+            "img": "build/img/spiritomb_cuadro.jpg",
+            "a": "#"
+        },
+        {
+            "title": "Chansey",
+            "img": "build/img/chansey_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Farigiraf",
+            "img": "build/img/farigiraf_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Maushold",
+            "img": "build/img/maushold_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Oranguru",
+            "img": "build/img/oranguru_cuadro.jpg",
+            "a": "#"
+            }
+    ],
+    "RangoA": [
+        {
+            "title": "Dondozo",
+            "img": ["build/img/Dondozo_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Palafin",
+            "img": ["build/img/palafin_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Pelipper",
+            "img": ["build/img/pelipper_cuadro.jpg"]
+        },
+        {
+            "title": "Gyarados",
+            "img": ["build/img/gyarados_cuadro.jpg"]
+        },
+        {
+            "title": "Corviknight",
+            "img": "build/img/corviknight_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Flamigo",
+            "img": "build/img/flamigo_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Bombirdier",
+            "img": "build/img/bombirdier_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Noivern",
+            "img": "build/img/noivern_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Glaceon",
+            "img": "build/img/glaceon_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Eiscue",
+            "img": "build/img/eiscue_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Froslass",
+            "img": "build/img/froslass_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Cetitan",
+            "img": "build/img/cetitan_cuadro.jpg",
+            "a": "#"
+            },
+            {
+                "title": "Bronzong",
+                "img": "build/img/bronzong_cuadro.jpg",
+                "a": "#"
+                },
+                {
+                "title": "Copperajah",
+                "img": "build/img/copperajah_cuadro.jpg",
+                "a": "#"
+                },
+                {
+                "title": "Klefki",
+                "img": "build/img/klefki_cuadro.jpg",
+                "a": "#"
+                },
+                {
+                "title": "Revavroom",
+                "img": "build/img/revavroom_cuadro.jpg",
+                "a": "#"
+                }
+    ],
+    "RangoB": [
+        {
+            "title": "Breloom",
+            "img": ["build/img/breloom_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Meowscara",
+            "img": ["build/img/meowscarada_cuadro.jpg"]
+        },
+        {
+            "title": "Abomasnow",
+            "img": ["build/img/abomasnow_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Tsareena",
+            "img": ["build/img/Tsareena_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Wash Rotom",
+            "img": "build/img/wash_rotom_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Heat Rotom",
+            "img": "build/img/heat_rotom_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Mow Rotom",
+            "img": "build/img/mow_rotom_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Pawmot",
+            "img": "build/img/pawmot_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Grimmsnarl",
+            "img": "build/img/grimmsnarl_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Hydreigon",
+            "img": "build/img/hydreigon_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Kingambit",
+            "img": "build/img/kingambit_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Weavile",
+            "img": "build/img/weavile_cuadro.jpg",
+            "a": "#"
+            }
+    ],
+    "RangoC": [
+        {
+            "title": "Krookodile",
+            "img": ["build/img/krookodile_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Dugtrio",
+            "img": ["build/img/dugtrio_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Donphan",
+            "img": ["build/img/donphan_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Hippowdon",
+            "img": ["build/img/hippowdon_cuadro.jpg"],
+            "a": "#"
+        }
+        ,{
+            "title": "Toxicroak",
+            "img": "build/img/toxicroak_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Muk",
+            "img": "build/img/muk_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Seviper",
+            "img": "build/img/seviper_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Toxapex",
+            "img": "build/img/toxapex_cuadro.jpg",
+            "a": "#"
+          },
+          {
+         "title": "Gardevoir",
+         "img": "build/img/gardevoir_cuadro.jpg",
+         "a": "#"
+         },
+         {
+         "title": "Gothitelle",
+         "img": "build/img/gothitelle_cuadro.jpg",
+         "a": "#"
+         },
+         {
+         "title": "Hatterene",
+         "img": "build/img/hatterene_cuadro.jpg",
+         "a": "#"
+         },
+         {
+         "title": "Indeedee",
+         "img": "build/img/indeedeeF_cuadro.jpg",
+         "a": "#"
+         } 
+    ],
+    "RangoD": [
+        {
+            "title": "Coalossal",
+            "img": ["build/img/coalossal_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Garganacl",
+            "img": ["build/img/garganacl_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Garchomp",
+            "img": "build/img/garchomp_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Goodra",
+            "img": "build/img/goodra_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Salamence",
+            "img": "build/img/salamence_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Dragonite",
+            "img": "build/img/dragonite_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Annihilape",
+            "img": "build/img/annihilape_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Falinks",
+            "img": "build/img/falinks_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Hariyama",
+            "img": "build/img/hariyama_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Lucario",
+            "img": "build/img/lucario_cuadro.jpg",
+            "a": "#"
+            }
+    ],
+    "RangoF": [
+        {
+            "title": "Tyranitar",
+            "img": ["build/img/tyranitar_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Stonjourner",
+            "img": ["build/img/stonjourner_cuadro.jpg"],
+            "a": "#"
+        },
+        {
+            "title": "Scizor",
+            "img": "build/img/scizor_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Volcarona",
+            "img": "build/img/volcarona_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Forretress",
+            "img": "build/img/forretress_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Venomoth",
+            "img": "build/img/venomoth_cuadro.jpg",
+            "a": "#"
+          },
+          {
+            "title": "Florges",
+            "img": "build/img/florges_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Sylveon",
+            "img": "build/img/sylveon_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Tinkaton",
+            "img": "build/img/tinkaton_cuadro.jpg",
+            "a": "#"
+            },
+            {
+            "title": "Dachsbun",
+            "img": "build/img/dachsbun_cuadro.jpg",
+            "a": "#"
+            }
+    ]
+  }
