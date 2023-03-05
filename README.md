@@ -3,4 +3,4 @@
 
 ## Proyectos
 
-- [LDP](https://wsd-adn.github.io/)
+
